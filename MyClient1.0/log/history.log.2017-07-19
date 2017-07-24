@@ -1,0 +1,11 @@
+2017-07-19 20:00:36,867 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:247) - initialize
+2017-07-19 20:00:37,412 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:131) - initmenu
+2017-07-19 20:00:37,858 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2320) - start up
+2017-07-19 20:00:44,524 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - E:\ClientFile is directory
+2017-07-19 20:00:45,111 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - doc is directory
+2017-07-19 20:00:45,650 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - 123 is directory
+2017-07-19 20:00:46,993 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - 123 is directory
+2017-07-19 20:00:47,593 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - 11 is directory
+2017-07-19 20:00:50,516 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - 123 is directory
+2017-07-19 20:00:52,838 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - test is directory
+2017-07-19 20:01:29,407 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1221) - E:\ClientFile is directory

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.5.10.jar"/>
+	<classpathentry kind="lib" path="lib/substance.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/fontbox-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/jodconverter-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/jodconverter-cli-2.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/juh-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/jurt-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/pdfbox-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/ridl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/onlinescanlib/unoil-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/calendar.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

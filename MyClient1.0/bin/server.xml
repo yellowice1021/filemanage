@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is a comment  author:linjiaqin   date:2017.01.07-->
+<server id="string" ids="123"> 
+  <server_ip>127.0.0.1</server_ip>  
+  <server_ippath></server_ippath>  
+  <server_port>8080</server_port>  
+  <client_path>D:\filemanages</client_path>  
+  <client_theme>BusinessBlackSteelSkin</client_theme> 
+</server>

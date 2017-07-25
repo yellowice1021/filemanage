@@ -7,8 +7,10 @@ import javax.swing.JOptionPane;
 
 import com.itextpdf.text.log.SysoCounter;
 import com.scut.client.funtion.MyLogin;
+import com.scut.client.user.MyPath;
 import com.scut.client.user.MyUser;
 import com.scut.client.user.WorkingJob;
+import com.scut.tools.DirDeal;
 
 public class MyHandleWin extends WindowAdapter
 {
@@ -24,6 +26,7 @@ public class MyHandleWin extends WindowAdapter
 		int answer = JOptionPane.showConfirmDialog(null, "是否直接退出？", null, JOptionPane.YES_NO_OPTION);
 		if (answer == JOptionPane.YES_OPTION)
 		{
+			DirDeal.delDir(MyPath.scanPath + "/doc");
 			if (!MyUser.userName.equals("游客")) MyLogin.quit(MyUser.userName);
 			(e.getWindow()).dispose();
 			System.exit(0);

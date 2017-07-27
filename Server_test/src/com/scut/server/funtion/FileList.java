@@ -1,6 +1,7 @@
 package com.scut.server.funtion;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 
 import org.apache.log4j.Logger;
 
@@ -77,6 +78,36 @@ public class FileList
 			     //System.out.println("显示"+filePath+"下所有子目录及其文件"+file.getAbsolutePath());
 		   }
 		   return s;
+	}
+	/*
+	 * 遍历历史版本文件
+	 */
+	public static String getFileVersion(String filePath, String fileName, String fileType)
+	{
+		String fileVersion = "";
+		String path = MyPath.serverRootPath + filePath.substring(0, filePath.lastIndexOf("\\"));
+		SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+		if(fileName.indexOf("_") != -1)
+		{
+			fileName = fileName.substring(0, fileName.lastIndexOf("_"));
+		}
+
+		File root = new File(path);
+		File[] files = root.listFiles();
+		for(File file:files)
+		{   
+			if(!file.isDirectory())
+			{
+				String fileNameEach = file.getName();
+				if(fileNameEach.startsWith(fileName) && fileNameEach.endsWith(fileType))
+				{
+					fileVersion += fileNameEach + "#" + sf.format(file.lastModified());
+					fileVersion += ",";
+				}
+			}
+		}
+		   
+		return fileVersion;
 	}
 //	public static void main(String[] args)
 //	{

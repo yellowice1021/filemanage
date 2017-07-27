@@ -5,6 +5,7 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.regex.Pattern;
 
 import javax.swing.Box;
 import javax.swing.JButton;
@@ -52,16 +53,24 @@ public class MySetLogDatePanel extends JPanel implements ActionListener{
 		if (e.getSource() == button)
 		{
 			String date = text.getText().toString();
-			String res = LogHandle.setLogDate(date);
-			if (res.equals("yes"))
+			Pattern pattern = Pattern.compile("^[+]?[\\d]*$");
+			if(pattern.matcher(date).matches())
 			{
-				JOptionPane.showMessageDialog(null, "设置保存日期成功",null, JOptionPane.INFORMATION_MESSAGE);
-				return;
+				String res = LogHandle.setLogDate(date);
+				if (res.equals("yes"))
+				{
+					JOptionPane.showMessageDialog(null, "设置保存日期成功",null, JOptionPane.INFORMATION_MESSAGE);
+					return;
+				}
+				else if (res.equals("no"))
+				{
+					JOptionPane.showMessageDialog(null, "设置保存日期失败",null, JOptionPane.INFORMATION_MESSAGE);
+					return;
+				}	
 			}
-			else if (res.equals("no"))
+			else
 			{
-				JOptionPane.showMessageDialog(null, "设置保存日期失败",null, JOptionPane.INFORMATION_MESSAGE);
-				return;
+				JOptionPane.showMessageDialog(null, "日期必须为正整数",null, JOptionPane.INFORMATION_MESSAGE);
 			}
 		}
 	}

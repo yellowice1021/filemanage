@@ -156,11 +156,13 @@ public class MulUploadServlet extends HttpServlet {
                 String tmpfileName = fileName;// 获得上传文件的文件名  
                 log.debug("upload file name:" + tmpfileName);
                 
-                String[] name = tmpfileName.split("\\.");
+                String name = tmpfileName;
+                String names = name.substring(0, name.lastIndexOf("."));
+                String type = name.substring(name.lastIndexOf(".")+1, name.length());
                 
-                char version = (char)(HisDbDao.searchVersion(serverPath,name[0])-1+97);
+                char version = (char)(HisDbDao.searchVersion(serverPath,names)-1+97);
               
-                String filename = name[0] +"_" +version + "." +name[1];
+                String filename = names +"_" +version + "." +type;
                 
                 File tmpfile = new File(Conf.tmpPath, fileName);  
 

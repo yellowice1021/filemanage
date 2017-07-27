@@ -1,0 +1,42 @@
+2017-07-25 16:46:51,175 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 16:46:51,994 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 16:46:52,707 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 16:46:54,586 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-25 16:46:59,828 [ WARN  ] [ AWT-EventQueue-0 ] com.scut.client.funtion.MyLogin.login(MyLogin.java:74) - org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect
+2017-07-25 16:47:44,200 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 16:47:44,997 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 16:47:45,675 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 16:47:47,537 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-25 16:55:24,453 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 16:55:25,139 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 16:55:25,909 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 16:55:34,798 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 16:55:35,522 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 16:55:36,224 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 16:56:22,750 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-25 16:56:33,000 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\图片\user4.jpg该被下载的文件长度:29543
+2017-07-25 16:56:51,420 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\机组\13计8-3213006156黄冰.ppt该被下载的文件长度:278528
+2017-07-25 16:58:43,934 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 16:58:44,647 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 16:58:45,392 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 16:58:47,093 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-25 16:58:58,033 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\工程一\Dr.Com.exe该被下载的文件长度:3190160
+2017-07-25 16:59:06,516 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\文件\从零开始做运营入门篇.张亮.pdf该被下载的文件长度:5156499
+2017-07-25 16:59:27,634 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\文件\从零开始做运营入门篇.张亮.pdf该被下载的文件长度:5156499
+2017-07-25 16:59:36,573 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\电站\图片\liaoning.jpg该被下载的文件长度:61414
+2017-07-25 16:59:52,413 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\电站\图片\liaoning.jpg该被下载的文件长度:61414
+2017-07-25 17:00:00,991 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\电站\图片\lijiang.jpg该被下载的文件长度:246330
+2017-07-25 17:00:08,722 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - D:\filemanages is directory
+2017-07-25 17:00:09,349 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - doc is directory
+2017-07-25 17:00:09,883 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 工程一 is directory
+2017-07-25 17:00:10,577 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 文件 is directory
+2017-07-25 17:00:11,259 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 电站 is directory
+2017-07-25 17:00:11,979 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 图片 is directory
+2017-07-25 17:19:40,043 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-25 17:19:40,807 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-25 17:19:41,519 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-25 17:19:43,588 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-25 17:19:52,915 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-25 17:20:04,105 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-25 17:20:05,133 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-25 17:20:10,906 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除

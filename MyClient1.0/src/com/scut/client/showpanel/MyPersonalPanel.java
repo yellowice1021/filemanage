@@ -104,23 +104,19 @@ public class MyPersonalPanel extends JPanel {
 				String userName = field1.getText().toString().trim();
 				String oldpasswd = field3.getText().toString().trim();
 				String newpasswd = field2.getText().toString().trim();
-				String againpasswd = field3.getText().toString().trim();//field3 to field4
-				if (newpasswd.equals(""))
+				String againpasswd = field4.getText().toString().trim();//field3 to field4
+
+				if(oldpasswd.equals("") || newpasswd.equals("") || againpasswd.equals(""))
 				{
-					JOptionPane.showMessageDialog(null, "你还未输入新密码",null, JOptionPane.INFORMATION_MESSAGE);
-					return;					
+					JOptionPane.showMessageDialog(null, "输入不能为空",null, JOptionPane.INFORMATION_MESSAGE);
+					return;
 				}
-				if (oldpasswd.equals(""))
-				{
-					JOptionPane.showMessageDialog(null, "你还未输入旧密码",null, JOptionPane.INFORMATION_MESSAGE);
-					return;					
-				}
-				if (!againpasswd.equals(oldpasswd))
+				if (!againpasswd.equals(newpasswd))
 				{
 					JOptionPane.showMessageDialog(null, "两次新密码输入不一致",null, JOptionPane.INFORMATION_MESSAGE);
 					return;	
 				}
-				
+
 				String res = UserHandle.updatePwd(userName, newpasswd, oldpasswd);
 				System.out.println(res);
 				if (res.equals("yes"))
@@ -130,9 +126,13 @@ public class MyPersonalPanel extends JPanel {
 					field3.setText("");
 					field4.setText("");
 				}
-				else
+				else if(res.equals("pass"))
 				{
 					JOptionPane.showMessageDialog(null, "旧密码错误",null, JOptionPane.INFORMATION_MESSAGE);
+				}
+				else
+				{
+					JOptionPane.showMessageDialog(null, "修改失败",null, JOptionPane.INFORMATION_MESSAGE);
 				}
 				
 			}

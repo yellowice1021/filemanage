@@ -142,16 +142,27 @@ public class MyUpdateUserDialog extends JDialog implements ActionListener{
 				privillege = 2;
 			}
 			else privillege = 3;
-			String res = UserHandle.updateUser(String.valueOf(id), textField.getText().trim(), textField_1.getText().trim(), String.valueOf(privillege) );	
-			if (res.equals("yes"))
+			if(!textField.getText().trim().equals("") && !textField_1.getText().trim().equals(""))
 			{
-				JOptionPane.showMessageDialog(null, "修改成功",null, JOptionPane.INFORMATION_MESSAGE);
+				String res = UserHandle.updateUser(String.valueOf(id), textField.getText().trim(), textField_1.getText().trim(), String.valueOf(privillege) );	
+				if (res.equals("yes"))
+				{
+					JOptionPane.showMessageDialog(null, "修改成功",null, JOptionPane.INFORMATION_MESSAGE);
+				}
+				else if(res.equals("exist"))
+				{
+					JOptionPane.showMessageDialog(null, "该用户名已经存在",null, JOptionPane.INFORMATION_MESSAGE);
+				}
+				else
+				{
+					JOptionPane.showMessageDialog(null, "修改失败",null, JOptionPane.INFORMATION_MESSAGE);
+				}
+				MyLookUserPanel.getAllUser();
 			}
 			else
 			{
-				JOptionPane.showMessageDialog(null, "修改失败",null, JOptionPane.INFORMATION_MESSAGE);
+				JOptionPane.showMessageDialog(null, "输入不能为空", null, JOptionPane.INFORMATION_MESSAGE);
 			}
-			MyLookUserPanel.getAllUser();
 			
 		}
 		else if (e.getSource() == btnNewButton_1)

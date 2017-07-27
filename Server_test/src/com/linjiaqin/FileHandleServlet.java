@@ -253,8 +253,10 @@ public class FileHandleServlet extends HttpServlet {
 		else if (type.equals("getVersionfile"))
 		{
 			String filepath = request.getParameter("filepath");
-			log.debug(filepath);
-			res  = HisDbDao.getVersionFile(filepath);
+			String fileName = filepath.substring(filepath.lastIndexOf("\\")+1, filepath.lastIndexOf("."));
+			String fileType = filepath.substring(filepath.lastIndexOf(".")+1, filepath.length());
+			res = FileList.getFileVersion(filepath, fileName, fileType);
+//			res  = HisDbDao.getVersionFile(filepath);
 			response.getWriter().append(res);
 			
 		}

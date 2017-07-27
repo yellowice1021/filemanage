@@ -1,42 +1,298 @@
-2017-07-25 16:46:51,175 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 16:46:51,994 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 16:46:52,707 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 16:46:54,586 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
-2017-07-25 16:46:59,828 [ WARN  ] [ AWT-EventQueue-0 ] com.scut.client.funtion.MyLogin.login(MyLogin.java:74) - org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8080 [/127.0.0.1] failed: Connection refused: connect
-2017-07-25 16:47:44,200 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 16:47:44,997 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 16:47:45,675 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 16:47:47,537 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
-2017-07-25 16:55:24,453 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 16:55:25,139 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 16:55:25,909 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 16:55:34,798 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 16:55:35,522 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 16:55:36,224 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 16:56:22,750 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
-2017-07-25 16:56:33,000 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\图片\user4.jpg该被下载的文件长度:29543
-2017-07-25 16:56:51,420 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\机组\13计8-3213006156黄冰.ppt该被下载的文件长度:278528
-2017-07-25 16:58:43,934 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 16:58:44,647 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 16:58:45,392 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 16:58:47,093 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
-2017-07-25 16:58:58,033 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\工程一\Dr.Com.exe该被下载的文件长度:3190160
-2017-07-25 16:59:06,516 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\文件\从零开始做运营入门篇.张亮.pdf该被下载的文件长度:5156499
-2017-07-25 16:59:27,634 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\文件\从零开始做运营入门篇.张亮.pdf该被下载的文件长度:5156499
-2017-07-25 16:59:36,573 [ INFO  ] [ onlinescan ] com.scut.client.funtion.UpDownFile.onlineScanFile(UpDownFile.java:405) - scan\doc\电站\图片\liaoning.jpg该被下载的文件长度:61414
-2017-07-25 16:59:52,413 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\电站\图片\liaoning.jpg该被下载的文件长度:61414
-2017-07-25 17:00:00,991 [ INFO  ] [ downLoad ] com.scut.client.funtion.UpDownFile.downloadFile(UpDownFile.java:531) - D:\filemanages\doc\电站\图片\lijiang.jpg该被下载的文件长度:246330
-2017-07-25 17:00:08,722 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - D:\filemanages is directory
-2017-07-25 17:00:09,349 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - doc is directory
-2017-07-25 17:00:09,883 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 工程一 is directory
-2017-07-25 17:00:10,577 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 文件 is directory
-2017-07-25 17:00:11,259 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 电站 is directory
-2017-07-25 17:00:11,979 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$7.mouseClicked(MyMainFrame.java:1238) - 图片 is directory
-2017-07-25 17:19:40,043 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
-2017-07-25 17:19:40,807 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
-2017-07-25 17:19:41,519 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
-2017-07-25 17:19:43,588 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
-2017-07-25 17:19:52,915 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
-2017-07-25 17:20:04,105 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
-2017-07-25 17:20:05,133 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
-2017-07-25 17:20:10,906 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 09:40:54,461 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 09:40:55,553 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 09:40:57,673 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 09:41:00,840 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 09:42:32,347 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 09:42:33,120 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 09:42:33,857 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 09:42:36,644 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 09:42:51,825 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 09:43:10,457 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 09:43:17,104 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 09:43:22,266 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 09:43:26,389 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 09:43:36,176 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 09:43:42,229 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 09:43:45,297 [ INFO  ] [ Thread-6 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 10:35:55,721 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 10:35:56,492 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 10:35:57,251 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 10:36:01,564 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 11:07:36,891 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 11:07:37,641 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 11:07:38,435 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 11:07:39,504 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 11:10:02,613 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 11:10:03,384 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 11:10:04,102 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 11:10:05,991 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 11:11:51,165 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 11:11:52,271 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 11:11:53,487 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 11:11:54,615 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 11:20:06,610 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 11:20:07,388 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 11:20:08,202 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 11:20:09,530 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 12:30:55,484 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 12:30:56,381 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 12:30:57,132 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 12:30:59,884 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 12:31:10,858 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:31:19,520 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:31:20,293 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:31:22,465 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1714) - 增加目录
+2017-07-27 12:31:28,338 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:31:32,360 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:31:36,011 [ INFO  ] [ Thread-6 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:31:55,457 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:00,293 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:01,372 [ INFO  ] [ Thread-7 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:32:05,432 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:11,285 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:12,270 [ INFO  ] [ Thread-8 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:32:14,751 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:20,933 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:22,062 [ INFO  ] [ Thread-9 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:32:24,303 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:30,442 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:31,527 [ INFO  ] [ Thread-10 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:32:33,327 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:40,276 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:41,867 [ INFO  ] [ Thread-11 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:32:44,664 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:32:53,046 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:32:55,336 [ INFO  ] [ Thread-12 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:32:59,509 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:33:05,349 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:33:08,036 [ INFO  ] [ Thread-13 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:35:21,928 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:35:26,344 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:35:27,177 [ INFO  ] [ Thread-14 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:36:31,127 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:36:36,052 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:36:37,787 [ INFO  ] [ Thread-15 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:36:45,171 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:36:50,376 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:36:52,694 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:37:02,899 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:37:06,478 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:37:12,888 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:37:16,072 [ INFO  ] [ Thread-16 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:37:23,553 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:37:31,088 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:37:50,278 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:37:53,106 [ INFO  ] [ Thread-17 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:38:23,036 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:38:27,795 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:38:29,390 [ INFO  ] [ Thread-18 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:38:54,743 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:39:15,559 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:39:19,927 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:39:22,287 [ INFO  ] [ Thread-19 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 12:39:49,666 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:39:54,553 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 12:39:57,551 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:40:03,701 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:40:04,529 [ INFO  ] [ Thread-20 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:40:07,069 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:40:11,472 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:40:12,379 [ INFO  ] [ Thread-21 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:40:14,548 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:40:19,415 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:40:20,041 [ INFO  ] [ Thread-22 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:40:22,367 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:40:31,556 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:40:32,354 [ INFO  ] [ Thread-23 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:40:34,507 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 12:40:38,627 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 12:40:39,861 [ INFO  ] [ Thread-24 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 12:56:27,120 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 12:56:27,969 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 12:56:28,762 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 12:56:30,013 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 12:58:57,262 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 12:58:58,301 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 12:58:59,712 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 12:59:01,384 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:00:05,270 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:00:06,036 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:00:06,831 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:00:08,990 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:03:31,574 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:03:32,378 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:03:33,329 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:03:35,367 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:07:41,781 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:07:42,531 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:07:43,287 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:07:45,109 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:09:59,107 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:09:59,822 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:10:00,603 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:10:12,853 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:10:13,662 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:10:14,438 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:10:16,469 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:14:19,792 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:14:21,260 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:14:22,157 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:14:23,987 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:17:16,410 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:17:17,165 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:17:17,922 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:17:20,106 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:18:05,285 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 13:18:09,878 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 13:18:10,734 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.uploadFile(UpDownFile.java:173) - 服务器正常响应，上传成功
+2017-07-27 13:18:13,198 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 13:18:16,982 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 13:18:18,526 [ INFO  ] [ Thread-6 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 13:22:07,674 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:22:08,500 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:22:09,248 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:22:11,135 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:23:40,293 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:23:41,078 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:23:41,813 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:23:43,133 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:31:09,142 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:31:09,896 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:31:10,680 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:31:12,689 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:34:01,042 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:34:01,801 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:34:02,591 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:34:03,800 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 13:35:06,966 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 13:35:07,707 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 13:35:08,454 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 13:35:11,288 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:27:29,445 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:27:30,199 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:27:30,940 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:27:33,582 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:28:50,514 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:28:51,305 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:28:52,112 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:29:06,786 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:31:07,092 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:31:07,900 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:31:08,709 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:31:10,840 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:33:38,391 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:33:39,192 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:33:39,978 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:33:45,392 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:37:57,531 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:37:58,295 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:37:59,062 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:38:01,141 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:39:16,218 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:39:16,991 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:39:17,753 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:39:23,398 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:43:18,626 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 14:43:23,873 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 14:43:25,649 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 14:43:31,386 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1680) - 删除
+2017-07-27 14:43:37,209 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 14:43:41,536 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 14:43:42,803 [ INFO  ] [ Thread-6 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 14:51:00,563 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:51:01,327 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:51:02,062 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:51:03,800 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:51:21,919 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:51:26,951 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:51:50,778 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:51:51,528 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:51:52,306 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:51:53,929 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:52:00,543 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:53:01,251 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:53:02,069 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:53:02,863 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:53:04,880 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:55:16,598 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 14:55:17,384 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 14:55:18,134 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 14:55:20,127 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 14:55:44,512 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:13:53,785 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:13:54,597 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:13:55,441 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:13:57,313 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:14:12,851 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 15:14:18,218 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 15:14:21,670 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 15:21:11,584 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:21:12,350 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:21:13,084 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:21:25,890 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:23:20,470 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 15:23:26,181 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 15:23:28,138 [ INFO  ] [ Thread-5 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 15:27:22,884 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1784) - 上传文件
+2017-07-27 15:27:29,390 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyUpLoadDialog.actionPerformed(MyUpLoadDialog.java:217) - 您选择了1个文件
+2017-07-27 15:27:31,034 [ INFO  ] [ Thread-6 ] com.scut.client.funtion.UpDownFile.mulUploadFile(UpDownFile.java:241) - 服务器正常响应，上传成功
+2017-07-27 15:36:08,607 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:36:09,482 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:36:10,200 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:36:12,665 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:37:28,567 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:37:29,379 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:37:30,082 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:37:31,876 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:42:16,216 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:42:17,028 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:42:17,793 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:42:21,433 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:45:10,708 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:45:11,458 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:45:12,223 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:45:50,490 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:54:23,678 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:54:24,537 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:54:25,271 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:55:07,631 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 15:57:24,003 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 15:57:24,847 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 15:57:25,550 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 15:58:35,145 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:12:29,690 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:12:30,471 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:12:31,189 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:12:36,790 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:22:50,790 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:22:51,583 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:22:52,321 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:22:53,641 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:27:44,580 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:27:45,393 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:27:46,161 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:27:48,632 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:29:32,803 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:29:33,568 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:29:34,313 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:29:36,053 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:30:47,866 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:30:48,666 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:30:49,415 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:30:50,999 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:33:42,509 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:33:43,281 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:33:44,022 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:33:45,966 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:42:58,163 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:42:58,926 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:42:59,668 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:43:01,510 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:43:42,983 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:43:43,737 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:43:44,484 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:43:45,839 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-27 16:44:01,302 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-27 16:44:02,572 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-27 16:44:03,329 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-27 16:44:04,483 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录

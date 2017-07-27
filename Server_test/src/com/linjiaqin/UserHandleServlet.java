@@ -83,11 +83,18 @@ public class UserHandleServlet extends HttpServlet {
 			String passwd = request.getParameter("passwd");
 			int privillege = Integer.parseInt(request.getParameter("privillege"));
 			int id = Integer.parseInt(request.getParameter("userid"));
-			UserDbDao.update(id, userName, privillege, passwd);
-			System.out.println(clientuser+" 修改用户"+id);
-			log.info(clientuser+" 修改用户"+id);
-			LogDbDao.insertLog(date, clientuser, "修改用户"+id);
-			response.getWriter().append("yes");
+			if(UserDbDao.isUserExist(userName))
+			{
+				response.getWriter().append("exist");
+			}
+			else
+			{
+				UserDbDao.update(id, userName, privillege, passwd);
+				System.out.println(clientuser+" 修改用户"+id);
+				log.info(clientuser+" 修改用户"+id);
+				LogDbDao.insertLog(date, clientuser, "修改用户"+id);
+				response.getWriter().append("yes");
+			}
 		}
 		else if (type.equals("updatePwd"))
 		{
@@ -95,16 +102,23 @@ public class UserHandleServlet extends HttpServlet {
 			String newpasswd = request.getParameter("newpasswd");
 			String oldpasswd = request.getParameter("oldpasswd");
 			log.info(userName+"::"+newpasswd + "::" + oldpasswd);
-			if (UserDbDao.updatePwd(userName, newpasswd, oldpasswd))
+			if(UserDbDao.isUser(userName, oldpasswd))
 			{
-				res = "yes";
-				log.info("修改用户密码");
-				LogDbDao.insertLog(date, clientuser, "修改用户密码"+userName+"成功");
+				if (UserDbDao.updatePwd(userName, newpasswd, oldpasswd))
+				{
+					res = "yes";
+					log.info("修改用户密码");
+					LogDbDao.insertLog(date, clientuser, "修改用户密码"+userName+"成功");
+				}
+				else
+				{
+					res = "no";
+					LogDbDao.insertLog(date, clientuser, "修改用户密码"+userName+"失败");
+				}
 			}
 			else
 			{
-				res = "no";
-				LogDbDao.insertLog(date, clientuser, "修改用户密码"+userName+"失败");
+				res = "pass";
 			}
 			response.getWriter().append(res);
 		}

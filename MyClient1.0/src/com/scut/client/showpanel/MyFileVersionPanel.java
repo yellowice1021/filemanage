@@ -65,24 +65,21 @@ public class MyFileVersionPanel extends JPanel implements ActionListener{
 		{
 			tableModel.removeRow(0);
 		}
-//		String datas[] = filename.split(",");
-//		for (String e : datas)
-//		{
-//			Object d[] = new Object[1];
-//			d[0] = e;
-//			tableModel.addRow(d);
-//		}
 		
-		String res = LogHandle.getAllLog();
-		String datas[] = filename.split("\t");
-		String data[] = {"",""};
-		Object d[] = new Object[2];
-		for (String e: datas)
+		System.out.println(filename);
+		
+		if(!filename.equals(""))
 		{
-			data = e.split(",");
-			d[0] = data[0];
-			d[1] = data[1];
-			tableModel.addRow(d);
+			String datas[] = filename.split(",");
+			String data[] = {"",""};
+			Object d[] = new Object[2];
+			for (String e: datas)
+			{
+				data = e.split("#");
+				d[0] = data[0];
+				d[1] = data[1];
+				tableModel.addRow(d);
+			}
 		}
 		
 	}

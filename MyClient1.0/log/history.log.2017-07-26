@@ -1,0 +1,56 @@
+2017-07-26 10:44:41,772 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-26 10:44:42,529 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-26 10:44:43,241 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-26 10:45:18,876 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 10:45:43,005 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_port:8080
+2017-07-26 10:45:43,025 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ip:192.168.1.139
+2017-07-26 10:45:43,031 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ippath:
+2017-07-26 20:29:11,658 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-26 20:29:12,642 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-26 20:29:14,127 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-26 20:29:17,169 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1965) - 修改服务器设置
+2017-07-26 20:29:49,964 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyServerDialog$3.actionPerformed(MyServerDialog.java:117) - 取消更改服务器设置
+2017-07-26 20:29:51,930 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 20:30:02,572 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_port:8080
+2017-07-26 20:30:02,635 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ip:127.0.0.1
+2017-07-26 20:30:02,651 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ippath:
+2017-07-26 20:30:04,632 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:30:21,492 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1817) - 编辑目录关键字
+2017-07-26 20:31:32,146 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1817) - 编辑目录关键字
+2017-07-26 20:31:58,444 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1817) - 编辑目录关键字
+2017-07-26 20:37:44,279 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-26 20:37:45,107 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-26 20:37:45,888 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-26 20:37:47,448 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:37:55,225 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:38:31,211 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-26 20:38:32,007 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-26 20:38:32,757 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-26 20:38:35,175 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:38:42,354 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:38:47,865 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:38:52,908 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:39:37,173 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:40:49,763 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.<init>(MyMainFrame.java:249) - initialize
+2017-07-26 20:40:50,513 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMenu.<init>(MyMenu.java:135) - initmenu
+2017-07-26 20:40:51,216 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame$12.run(MyMainFrame.java:2375) - start up
+2017-07-26 20:41:13,066 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:41:24,636 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:41:32,393 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2064) - 登录
+2017-07-26 20:54:00,540 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1965) - 修改服务器设置
+2017-07-26 20:54:07,418 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyServerDialog$3.actionPerformed(MyServerDialog.java:117) - 取消更改服务器设置
+2017-07-26 20:54:24,156 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1965) - 修改服务器设置
+2017-07-26 20:54:34,013 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyServerDialog$3.actionPerformed(MyServerDialog.java:117) - 取消更改服务器设置
+2017-07-26 20:55:17,414 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 20:55:18,210 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_port:
+2017-07-26 20:55:18,226 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ip:
+2017-07-26 20:55:18,241 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ippath:
+2017-07-26 20:55:24,296 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 20:55:29,882 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_port:8080
+2017-07-26 20:55:29,882 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ip:127.0.0.1
+2017-07-26 20:55:29,898 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.tools.MyReadXml.setFirstLevelValue(MyReadXml.java:110) - set server.xml server_ippath:
+2017-07-26 20:58:36,258 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 20:58:55,808 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyServerIpDialog$3.actionPerformed(MyServerIpDialog.java:107) - 取消更改服务器设置
+2017-07-26 20:58:57,510 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:1971) - 修改服务器ip
+2017-07-26 20:59:32,429 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyServerIpDialog$3.actionPerformed(MyServerIpDialog.java:107) - 取消更改服务器设置
+2017-07-26 21:04:10,603 [ INFO  ] [ AWT-EventQueue-0 ] com.scut.client.ui.MyMainFrame.actionPerformed(MyMainFrame.java:2055) - 您取消了设置默认下载路径

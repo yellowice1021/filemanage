@@ -20,6 +20,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
+import com.scut.client.ui.MyMainFrame;
 import com.scut.tools.MyParameters;
 
 /*
@@ -72,7 +73,12 @@ public class MyLogin
 		catch (org.apache.http.conn.HttpHostConnectException e)
 		{
 			log.warn(e);
-			JOptionPane.showMessageDialog(null, "出错啦", "您网络出问题了或者服务器拒绝了您", JOptionPane.ERROR_MESSAGE);
+			//JOptionPane.showMessageDialog(null, "出错啦", "您网络出问题了或者服务器拒绝了您", JOptionPane.ERROR_MESSAGE);
+			int answer = JOptionPane.showConfirmDialog(null, "出错啦", "您网络出问题了或者服务器拒绝了您\n 是否强制关闭", JOptionPane.YES_NO_OPTION);
+			if(answer == JOptionPane.YES_OPTION)
+			{
+				MyMainFrame.frame.dispose();//强制关闭
+			}
 		}
 		catch (ClientProtocolException e1) 
 		{

@@ -226,6 +226,19 @@ public class DirDbDao
 			log.warn(e.toString());
 			flag = false;
 		}
+		if(!getDirapply(dirname).equals(""))
+		{
+			try {
+				pstmt = con.prepareStatement("delete from tb_apply where dir_name = ?");
+				pstmt.setString(1, dirname);
+				pstmt.execute();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				log.warn(e.toString());
+				flag = false;
+			}
+		}
 
 		return flag;
 	}

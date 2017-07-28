@@ -86,11 +86,19 @@ public class DirhandleServlet extends HttpServlet {
 		else if(type.equals("delDir"))
 		{
 			String serverPath = MyPath.serverRootPath + request.getParameter("serverPath");
+			String picPath = MyPath.serverRootPath + "pic\\" + request.getParameter("serverPath");
+			String dirAllName[] = DirHandle.getAllDir(serverPath, MyPath.serverRootPath.length()).split(",");
 			
-			if (DirHandle.deleteDirectory(serverPath) )
+			if (DirHandle.deleteDirectory(serverPath))
 			 {
-				 
+				  DirHandle.deleteDirectory(picPath);
+				  
 				  DirDbDao.delDir(request.getParameter("serverPath"));
+				  
+				  for(int i = 0; i < dirAllName.length; i++)
+				  {
+					  DirDbDao.delDir(dirAllName[i]);
+				  }
 				
 		          log.info("成功删除文件夹 "+serverPath);
 		          LogDbDao.insertLog(date, clientuser, "删除文件夹"+request.getParameter("serverPath"));

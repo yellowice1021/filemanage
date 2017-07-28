@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import com.scut.server.db.DirDbDao;
+
 public class DirHandle 
 {
 	public static boolean deleteFile(String sPath) {  
@@ -207,5 +209,32 @@ public class DirHandle
 		File file = new File(filename);
 		if (file.exists()) return true;
 		else return false;
+	}
+	
+	// 获取该目录下所有目录的信息
+	public static String getAllDir(String sPath, int length)
+	{
+		String dirPath = "";
+		String dirAllName = "";
+		
+		File dirFile = new File(sPath);   
+	    //删除文件夹下的所有文件(包括子目录)  
+	    File[] files = dirFile.listFiles();  
+	    for (int i = 0; i < files.length; i++) {  
+	       if(files[i].isDirectory())
+	       {
+	    	   try {
+	    		   dirPath = files[i].getCanonicalPath();
+	    		   System.out.println(dirPath.substring(length, dirPath.length()));
+	    		   dirAllName += dirPath.substring(length, dirPath.length()) + ",";
+	    		   dirAllName += getAllDir(dirPath, length);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	       }
+	    }  
+	    
+	    return dirAllName;
 	}
 }

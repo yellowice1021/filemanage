@@ -160,7 +160,7 @@ import javax.swing.JOptionPane;
 
 public class MyMainFrame implements ActionListener{
 
-	private JFrame frame;
+	public static  JFrame frame;
 	//private JPanel upPanel;                          //标题栏的panel
 	private JToolBar upPanel; 
 	private JPanel leftPanel;                        //左边的panel，存放treepanel和progressbar

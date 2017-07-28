@@ -474,27 +474,28 @@ public class MyShowDirInfoDialog1 extends JDialog implements ActionListener, Mou
 		}
 		for(int i = 0; i < 5; i++)
 		{
-			if (!"".equals(info[i]) && i == 0)
+			log.debug(info[i]);
+			if (!"".equals(info[i]) && i == 0 && !info[i].equals("null"))
 			{
 				//log.debug(info[i]);
 				text += "设备描述:\n"+info[i] + "\n\n"; 
 				insertMessage(true, Color.RED, 16, "微软雅黑", "功能描述:\n");
 				insertMessage(false, Color.BLACK, 15, "微软雅黑", "\t"+ info[i] + "\n\n");
 			}
-			if (!"".equals(info[i]) && i == 1)
+			if (!"".equals(info[i]) && i == 1 && !info[i].equals("null"))
 			{
 				text += "技术特点:\n"+info[i] + "\n\n"; 
 				insertMessage(true, Color.RED, 16, "微软雅黑", "技术特点:\n");
 				insertMessage(false, Color.BLACK, 15, "微软雅黑", "\t"+info[i] + "\n\n");
 			}
-			if (!"".equals(info[i]) && i == 2)
+			if (!"".equals(info[i]) && i == 2 && !info[i].equals("null"))
 			{
 				text += "项目状态:\n"+info[i] + "\n\n"; 
 				insertMessage(true, Color.RED, 16, "微软雅黑", "项目状态:\n");
 				insertMessage(false, Color.BLACK, 15, "微软雅黑", "\t"+info[i] + "\n\n");
 //				text += "应用场合:"+info[i] + "\n"; 
 			}
-			if (!"".equals(info[i]) && i == 3)
+			if (!"".equals(info[i]) && i == 3 && !info[i].equals("null"))
 			{
 				text += "潜在客户:\n"+info[i] + "\n\n"; 
 				insertMessage(true, Color.RED, 16, "微软雅黑", "潜在客户:\n");
@@ -507,22 +508,25 @@ public class MyShowDirInfoDialog1 extends JDialog implements ActionListener, Mou
 		}
 		
 		String apply = MyDirHandle.getDirapply(serverPath);
-		String tmps[] = apply.split(",");
-		String result = "\t";       //"应用电站    供货日期    质保时限\n";
-		log.debug(apply + ":" + tmps.length);
-		if (tmps.length > 0)
+		if(!apply.equals(""))
 		{
 			insertMessage(true, Color.RED, 16, "微软雅黑", "应用电站\\机组:\n");
 			insertMessage(false, Color.BLACK, 15, "微软雅黑", "\t应用电站     | 供货日期   | 质保时限（单位:月)\n");
+			
+			String result = "\t";       //"应用电站    供货日期    质保时限\n";
+//			log.debug(apply + ":" + tmps.length);
+			
+			String tmps[] = apply.split("\t");
+			
+			for(int i = 0; i < tmps.length; i++)
+			{
+				String data[] = tmps[i].split(",");
+				result += data[0] + "\t" + data[1] + "\t" + data[2] + "\n\t";
+			}
+			
+			insertMessage(false, Color.BLACK, 15, "微软雅黑", result);
+			textArea.setText(text + result);
 		}
-		
-		for(int i = 0; i < tmps.length; i++)
-		{
-			result += tmps[i] + "\t";
-			if ((i+1)%3 == 0)  result += "\n\t";
-		}
-		insertMessage(false, Color.BLACK, 15, "微软雅黑", result);
-		textArea.setText(text + result);
 		
 		pre.addActionListener(this);
 		next.addActionListener(this);
